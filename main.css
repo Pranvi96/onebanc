@@ -1,0 +1,114 @@
+body
+{
+	background-color: #0387d1; 
+}
+
+.left
+{
+	padding: 10px;
+	width: 35%;
+	float: left;
+	color: white;
+	font-size: 22px;
+	background-color: #0387d1;
+	margin-left: 25px;
+	height: 100%;
+}
+
+.para {
+	margin: 0px;
+}
+
+.right
+{
+	background-color: #0387d1;
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+.scribe {
+	display: flex;
+}
+
+.btn {
+	margin-bottom: auto;
+    margin-top: auto;
+}
+
+.title
+{
+	font-size: 40px;
+}
+
+.Form {
+	margin-bottom: 50px;
+}
+
+.Subscribe
+{
+	background-color: #004da3;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+	max-width: 360px;
+}
+
+.image {
+	height: 100%;
+}
+
+.change:after
+{
+	font-family: 'sans-serif';
+	font-size: 60px;
+	content: 'PAYMENTS';
+	animation: animate infinite 10s;
+}
+@keyframes animate
+{
+	0%{content: 'PAYMENTS';}
+	10%{content: 'LOAN';}
+	20%{content: 'SUPPORT';}
+	40%{content: 'REWARDS';}
+	50%{content: 'SAVINGS';}
+	60%{content: 'INVESTMENTS';}
+	70%{content: 'FOREX';}
+	90%{content: 'ANALYTICS';}
+	100%{content: 'CARDS';}
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  padding-right: 150px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #0387d1;
+  color: white;
+  border: none;
+}
+
+input[type=image] {
+	background-color: 00d1eb;
+    padding: 5px 10px;
+	height: 31px;
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+input[type=image]:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1000px) {
+	input[type=email] {
+		padding-right: 100px;
+	}
+}
